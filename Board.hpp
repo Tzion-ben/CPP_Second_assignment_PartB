@@ -19,5 +19,9 @@ namespace ariel{
         private :
             static std::string convertToKey(unsigned int i,unsigned int j);
             std::unordered_map<std::string , std::string> _noticeBoard;
+
+            /*will help to print the exact size of the board*/
+            u_int _maxColumn;
+            u_int _maxRow;
     };
 }
